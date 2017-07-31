@@ -7,7 +7,7 @@ import java.net.URL;
 
 public class WebRequestSender {
     public static String executePost(String targetURL, String urlParameters) {
-        HttpURLConnection connection = null;
+        HttpURLConnection connection = null; //еуые
         try {
             //Create connection
             URL url = new URL(targetURL);
